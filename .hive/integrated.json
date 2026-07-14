@@ -1,0 +1,60 @@
+{
+  "acmm_level": 4,
+  "allowed_auto_merge_paths": [
+    "**/*.spec.*",
+    "**/*.test.*",
+    "**/*_test.go",
+    "test/**",
+    "tests/**"
+  ],
+  "allowed_auto_merge_risk": [
+    0
+  ],
+  "allowed_repair_paths": [
+    "src/**",
+    "**/src/**",
+    "public/**",
+    "**/public/**",
+    "index.html",
+    "**/index.html",
+    "visual-hive.config.yaml",
+    "test/**",
+    "tests/**",
+    "**/test/**",
+    "**/tests/**",
+    "**/*.test.*",
+    "**/*.spec.*",
+    "**/*_test.go"
+  ],
+  "automation": "issues",
+  "coverage": "comprehensive",
+  "default_branch": "main",
+  "max_active_issues": 5,
+  "max_repair_attempts": 4,
+  "provider": "codex",
+  "repository": "DavidDiaz0317/hive-visual-hive-final-proof-20260714-013344",
+  "repository_id": "1300055986",
+  "schema_version": "hive.integrated-config.v1",
+  "setup_authorization_actor_id": 183157248,
+  "test_commands": [
+    [
+      "npm",
+      "run",
+      "build"
+    ],
+    [
+      "npm",
+      "run",
+      "test"
+    ],
+    [
+      "npm",
+      "run",
+      "test:e2e"
+    ]
+  ],
+  "visual_hive": true,
+  "visual_hive_config_digest": "34b77368ace76313a55d803762efc0e4091e3994897ec0ac4165d570b98d0207",
+  "visual_hive_ref": "6891c7fcc831eac8d560ea933d2e72e21a39a475",
+  "visual_hive_repository": "DavidDiaz0317/visual-hive"
+}
