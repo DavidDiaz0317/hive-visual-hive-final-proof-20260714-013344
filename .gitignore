@@ -1,0 +1,11 @@
+node_modules/
+dist/
+playwright-report/
+test-results/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.egg-info/
+
+# Hive and Visual Hive runtime evidence is always regenerated.
+.visual-hive/
