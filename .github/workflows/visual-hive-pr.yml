@@ -10,7 +10,7 @@ on:
 permissions: {}
 
 concurrency:
-  group: visual-hive-pr-${{ github.event.pull_request.number }}
+  group: visual-hive-pr-${{ github.event_name }}-${{ github.event.pull_request.number }}
   cancel-in-progress: true
 
 jobs:

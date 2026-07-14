@@ -105,6 +105,7 @@ mutation:
         - mobile-overflow
         - broken-image
     runOn:
+        pullRequest: false
         schedule: true
 project:
     defaultBranch: main
@@ -136,6 +137,7 @@ selection:
             - route-jobs-visual-stability
           pattern: src/**
           risk: medium
+    ignoreChangedFiles: []
 targets:
     localPreview:
         build: npm run build
